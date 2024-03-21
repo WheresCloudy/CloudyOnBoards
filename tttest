@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Embedded Content</title>
-</head>
-<body>
-
-<script>
-    // Create an iframe element
-    var iframe = document.createElement('iframe');
-    
-    // Set the source URL of the iframe
-    iframe.src = 'https://amthebest.4ippi.ru/';
-    
-    // Set the attributes for the iframe
-    iframe.width = '100%';
-    iframe.height = '800';
-    iframe.frameBorder = '0';
-    
-    // Append the iframe to the body of the document
-    document.body.appendChild(iframe);
-</script>
-
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Embedded Content Gadget">
+    <!-- Metadata -->
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="url">
+    <Url>https://amthebest.4ippi.ru/</Url>
+  </Content>
+</Module>
