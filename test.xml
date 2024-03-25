@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-  <ModulePrefs title="Cloudy OnBoards">
-    <!-- Metadata -->
-    <Require feature="dynamic-height"/>
-  </ModulePrefs>
-  <Content type="url" href="https://amthebest.4ippi.ru/"/>
-</Module>
